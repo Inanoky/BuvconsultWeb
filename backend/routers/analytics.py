@@ -7,7 +7,7 @@ import pandas as pd
 
 router = APIRouter(prefix="/api/analytics", tags=["Analytics"])
 
-#This is a test comment
+#This is a main branch
 
 @router.get("/summary")
 def get_analytics_summary(db: Session = Depends(get_db)):
