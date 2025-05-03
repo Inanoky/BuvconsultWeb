@@ -1,0 +1,201 @@
+id,invoice_date,invoice_number,seller,buyer,item,quantity,unit,price,sum,currency,file_id,category
+1,06.11.2024,bb5566fa,Company D,Main Contractor,Steel,63.35,pcs,23.49,1488.09,EUR,c1a7d18e-05c7-4f66-bc2e-f2948172ff04,Reinforcement
+2,26.02.2025,f28521db,Company E,Main Contractor,Steel,50.37,pcs,64.7,3258.94,EUR,306717f8-eea0-464e-a14a-fc78cccd14ad,Reinforcement
+3,13.12.2024,0c8f2521,Company D,Main Contractor,Cement,13.47,pcs,95.8,1290.43,EUR,875ca149-34c7-4ffc-b4a2-d1e3174cdcc0,Concreting
+4,29.01.2025,941c20a1,Company F,Main Contractor,Paint,59.89,pcs,66.95,4009.64,EUR,e65b8e87-f95e-4473-bf4f-a27a4d278015,Finishing works
+5,02.01.2025,ba943eb0,Company F,Main Contractor,Concrete Mixer,60.84,pcs,36.58,2225.53,EUR,bd83a737-9f3d-42e5-90bf-ab5ad2a7096d,Concreting
+6,03.01.2025,85c1b681,Company T,Main Contractor,Wood,44.39,pcs,24.26,1076.9,EUR,f3899f1a-f5ab-4102-a159-faf75aca9c0a,Shuttering
+7,06.10.2024,b1a1467c,Company M,Main Contractor,Tiles,97.07,pcs,95.52,9272.13,EUR,4595a326-dc1d-4455-8636-24182a8f6690,Finishing works
+8,25.03.2025,66885294,Company S,Main Contractor,Steel,15.8,pcs,40.13,634.05,EUR,ce475a6c-fe84-4dd1-96ab-aa54d44cf42b,Reinforcement
+9,29.12.2024,74148be5,Company K,Main Contractor,Concrete Mixer,98.78,pcs,54.3,5363.75,EUR,16ec5184-62af-420c-892a-f90bfcefaa2d,Concreting
+10,02.10.2024,d5d623f3,Company E,Main Contractor,Concrete Mixer,71.63,pcs,28.71,2056.5,EUR,db3fbd4b-3d41-4af9-a499-420617486165,Concreting
+11,03.02.2025,9cf78e9f,Company S,Main Contractor,Concrete Mixer,65.84,pcs,68.79,4529.13,EUR,44f33bc6-8fba-4a17-bca4-7f4268a5e8dc,Concreting
+12,09.12.2024,b82aac06,Company N,Main Contractor,Steel,30.3,pcs,87.48,2650.64,EUR,4978ea24-38f1-4b14-969f-a87e82ad7fb6,Reinforcement
+13,20.10.2024,b88b8b0a,Company T,Main Contractor,Bricks,5.53,pcs,69.41,383.84,EUR,470d7d48-965b-45c7-b905-10b0bfbdc67f,Assembly
+14,13.01.2025,aa6aef2e,Company T,Main Contractor,Rebar,10.53,pcs,97.71,1028.89,EUR,c77adf88-17d3-43fd-a800-ad31bcf46d93,Reinforcement
+15,03.01.2025,616a748b,Company Q,Main Contractor,Tiles,44.95,pcs,76.59,3442.72,EUR,0faf4b09-1b41-4aae-afba-3cb39491f619,Finishing works
+16,12.03.2025,be0d3e0e,Company I,Main Contractor,Wire,75.27,pcs,60.62,4562.87,EUR,010863ad-2d67-463f-abc4-05c83a40ea78,Reinforcement
+17,12.12.2024,702a7bdd,Company Q,Main Contractor,Wood,48.99,pcs,80.46,3941.74,EUR,76c5ef1f-e125-4bf5-9734-b7a2cd76c780,Shuttering
+18,26.10.2024,5b1bb17f,Company R,Main Contractor,Bricks,71.11,pcs,23.72,1686.73,EUR,14cf095c-9169-4176-8142-0b51275bdcab,Assembly
+19,27.10.2024,3509b205,Company N,Main Contractor,Scaffolding,17.22,pcs,30.56,526.24,EUR,bac80989-a403-4f03-a200-7756af8d6d56,SettingOut
+20,25.11.2024,52e56324,Company N,Main Contractor,Paint,11.24,pcs,55.85,627.75,EUR,d2efc718-252a-4c88-ad9a-43a87fc60cbc,Finishing works
+21,22.01.2025,9931c476,Company G,Main Contractor,Wire,70.45,pcs,64.8,4565.16,EUR,4fbde5af-65d7-48a3-942a-eb6463f77ff2,Reinforcement
+22,09.02.2025,b277a9bd,Company C,Main Contractor,Concrete Mixer,51.23,pcs,66.44,3403.72,EUR,210559f7-d489-433c-9bf5-8aa9e4edefd2,Concreting
+23,26.01.2025,82f0d688,Company D,Main Contractor,Wood,56.39,pcs,47.03,2652.02,EUR,f9c402f4-31d8-46c7-9e56-2d44fef4f179,Shuttering
+24,30.01.2025,f51a807f,Company Q,Main Contractor,Cement,4.11,pcs,16.99,69.83,EUR,081fb258-993d-4253-8f57-ce41c543cd3d,Concreting
+25,02.12.2024,e44e4704,Company K,Main Contractor,Cement,63.35,pcs,29.12,1844.75,EUR,1aa19ec2-e383-4ed7-954b-936da5f02b93,Concreting
+26,22.02.2025,dab8e5ca,Company R,Main Contractor,Tiles,53.48,pcs,44.16,2361.68,EUR,faeb74cf-bbed-40f6-ae9a-bd65001d29f3,Finishing works
+27,15.10.2024,12c8f652,Company B,Main Contractor,Paint,1.29,pcs,34.13,44.03,EUR,9c57088c-88df-4536-970f-1cc3c79173c9,Finishing works
+28,13.01.2025,b1919a50,Company E,Main Contractor,Wire,2.8,pcs,73.84,206.75,EUR,3acf747c-ae52-4dcf-ae43-0383db2c26ce,Reinforcement
+29,10.01.2025,d28a86e5,Company J,Main Contractor,Bricks,81.05,pcs,89.31,7238.58,EUR,e68ea328-20a3-409d-8338-f04582abc5b3,Assembly
+30,26.02.2025,79de73a4,Company J,Main Contractor,Bricks,63.7,pcs,39.52,2517.42,EUR,4d72a8b4-4f62-4a6e-9d8b-50e482ec63e4,Assembly
+31,30.01.2025,42dbb251,Company J,Main Contractor,Concrete Mixer,59.15,pcs,42.92,2538.72,EUR,714a0108-4cbf-46a5-bd74-a56197938261,Concreting
+32,18.12.2024,a86caba1,Company H,Main Contractor,Scaffolding,37.81,pcs,13.36,505.14,EUR,837063e9-381d-497d-932b-358a00090b29,SettingOut
+33,21.10.2024,ff2ae3c6,Company B,Main Contractor,Concrete Mixer,38.5,pcs,95.69,3684.07,EUR,3b2d6f81-e604-4d6a-93d3-23f268b36e90,Concreting
+34,02.03.2025,73c041ab,Company H,Main Contractor,Wood,55.3,pcs,29.99,1658.45,EUR,53b74306-4b19-4e2b-a357-d04bc3b70027,Shuttering
+35,17.02.2025,6f714e8f,Company C,Main Contractor,Steel,9.57,pcs,35.55,340.21,EUR,333d623c-0fb1-436f-83d6-fffccf3bc787,Reinforcement
+36,31.01.2025,71812aa8,Company C,Main Contractor,Cement,51.79,pcs,69.81,3615.46,EUR,6afb3d23-1db0-43fd-aca5-66f49076d7ed,Concreting
+37,10.11.2024,1df63729,Company T,Main Contractor,Bricks,23.56,pcs,73.81,1738.96,EUR,c0b16ea0-6cc6-400c-ab2e-8d9af307eeec,Assembly
+38,25.10.2024,55f60dde,Company J,Main Contractor,Rebar,35.34,pcs,18.2,643.19,EUR,3c528cd2-9715-4a63-aea8-a815ea221351,Reinforcement
+39,06.03.2025,d9973df2,Company T,Main Contractor,Tiles,67.33,pcs,92.61,6235.43,EUR,da56dee3-50d9-476a-b866-98fdc9725a41,Finishing works
+40,18.02.2025,e3ba4132,Company R,Main Contractor,Wire,99.37,pcs,49.97,4965.52,EUR,feec49a4-5c80-470f-8c44-f309feab75b5,Reinforcement
+41,25.10.2024,f4be5e4b,Company N,Main Contractor,Scaffolding,95.1,pcs,34.33,3264.78,EUR,a8ca3862-d1dc-4328-be2c-dece536dce65,SettingOut
+42,22.01.2025,adfc18c0,Company T,Main Contractor,Rebar,24.02,pcs,10.4,249.81,EUR,2e5cec4c-c278-4166-94b8-33b94d67bd81,Reinforcement
+43,04.12.2024,f3e58428,Company C,Main Contractor,Scaffolding,54.9,pcs,26.04,1429.6,EUR,11ebaea1-0ef6-4861-8d9c-e7bdb470a123,SettingOut
+44,24.03.2025,e8acc048,Company J,Main Contractor,Wire,54.31,pcs,10.69,580.57,EUR,a9c28cdc-168a-48c8-b203-fcae1e45348f,Reinforcement
+45,30.10.2024,14c79042,Company A,Main Contractor,Cement,91.54,pcs,26.51,2426.73,EUR,7179b20e-7bfa-49fe-9e8e-be20bd75f09c,Concreting
+46,19.10.2024,56fdf86b,Company M,Main Contractor,Bricks,3.5,pcs,11.06,38.71,EUR,0cfc6673-f827-449f-9a78-f249625cac06,Assembly
+47,23.03.2025,02033a92,Company T,Main Contractor,Steel,39.6,pcs,77.25,3059.1,EUR,af3a706a-129f-4829-b7cd-f8c11269a75c,Reinforcement
+48,21.11.2024,3229a0df,Company E,Main Contractor,Steel,8.23,pcs,82.53,679.22,EUR,a3992fc6-c236-4cab-a474-ed7fa1f982cf,Reinforcement
+49,04.02.2025,a1f561db,Company O,Main Contractor,Rebar,74.88,pcs,88.76,6646.35,EUR,ad850bf8-c6e8-4395-ac73-1aef574e59ab,Reinforcement
+50,10.01.2025,c37d2a9a,Company H,Main Contractor,Wood,84.52,pcs,25.73,2174.7,EUR,3c1e3cf3-f7c8-4d71-9e46-b68906befb1f,Shuttering
+51,12.11.2024,823c3ec7,Company N,Main Contractor,Bricks,43.68,pcs,65.98,2882.01,EUR,4d1eee87-56ac-4ee2-b7cb-1a4984554e96,Assembly
+52,06.12.2024,2db2f9a5,Company E,Main Contractor,Paint,11.98,pcs,53.94,646.2,EUR,8cb52b8e-68a7-4a8e-9e90-8611e4404a01,Finishing works
+53,10.01.2025,a0adc827,Company A,Main Contractor,Cement,20.19,pcs,51.76,1045.03,EUR,09af12e6-4e91-4738-aa0a-758b72ade9a8,Concreting
+54,24.02.2025,17aeb0ae,Company P,Main Contractor,Scaffolding,53.44,pcs,94.25,5036.72,EUR,ab05fab9-a711-4d98-8fd6-cf61b7084661,SettingOut
+55,30.11.2024,35e8a142,Company H,Main Contractor,Bricks,19.48,pcs,45.78,891.79,EUR,3c16b98a-2657-4413-99d4-a7325f2d4f44,Assembly
+56,12.02.2025,f45b5db0,Company L,Main Contractor,Rebar,21.86,pcs,85.57,1870.56,EUR,f6369412-8b0b-4f8d-bcea-b660fff1fabd,Reinforcement
+57,10.11.2024,4a1728c7,Company R,Main Contractor,Concrete Mixer,41.64,pcs,67.41,2806.95,EUR,18de3b1c-33a7-4291-b3b8-e2ab37585748,Concreting
+58,25.02.2025,34ad6170,Company D,Main Contractor,Bricks,87.14,pcs,20.01,1743.67,EUR,521c7b65-dd05-4ded-93c5-7ba6b6891705,Assembly
+59,10.12.2024,517ba9ae,Company P,Main Contractor,Rebar,80.88,pcs,26.36,2132.0,EUR,20ebe80d-36d4-474a-acc9-7d0c5ffdfdfa,Reinforcement
+60,19.10.2024,6b5221ea,Company S,Main Contractor,Paint,49.14,pcs,64.59,3173.95,EUR,1539a2df-162c-4871-9fb4-41bd6ef4c371,Finishing works
+61,29.10.2024,0272d74f,Company F,Main Contractor,Rebar,22.98,pcs,32.86,755.12,EUR,bd80dcb9-1be3-43cc-9f3e-3c46f44ee7f5,Reinforcement
+62,20.01.2025,d22df04a,Company K,Main Contractor,Scaffolding,66.85,pcs,63.5,4244.97,EUR,36690932-1f29-4a67-9c6b-2dad7d39ede6,SettingOut
+63,09.01.2025,b6b98486,Company S,Main Contractor,Bricks,82.6,pcs,65.71,5427.65,EUR,0ae6cbf0-4bab-4d70-ac68-4bf67d6f6a53,Assembly
+64,02.10.2024,33adab98,Company Q,Main Contractor,Bricks,29.06,pcs,83.35,2422.15,EUR,40771d8d-919c-4fdb-adc3-97115cb57054,Assembly
+65,01.11.2024,38cb71cc,Company D,Main Contractor,Bricks,66.59,pcs,91.4,6086.33,EUR,d2d87109-4c9e-4b34-ba75-e52334dc7956,Assembly
+66,26.01.2025,a133dfe9,Company B,Main Contractor,Cement,90.81,pcs,83.21,7556.3,EUR,daeac257-7f24-4322-ad52-08204131be6a,Concreting
+67,28.12.2024,a3e471b0,Company E,Main Contractor,Wood,95.14,pcs,98.53,9374.14,EUR,98160147-8d94-4ddc-bb04-86edbeccf60e,Shuttering
+68,10.12.2024,a5a01323,Company B,Main Contractor,Bricks,18.36,pcs,90.9,1668.92,EUR,cd1ffb15-dee6-49ed-8aaa-b71e991e5174,Assembly
+69,05.01.2025,8d9fb216,Company L,Main Contractor,Steel,76.71,pcs,19.66,1508.12,EUR,baabfc01-9d21-4777-b2db-a9e58d31ac86,Reinforcement
+70,14.02.2025,b5ac2c87,Company N,Main Contractor,Bricks,61.77,pcs,99.03,6117.08,EUR,c279d581-80f3-40a7-8368-49bc85eae344,Assembly
+71,25.02.2025,95754ffe,Company Q,Main Contractor,Wire,61.7,pcs,54.63,3370.67,EUR,6ffaeec0-0a59-4962-a90a-401d84acc08a,Reinforcement
+72,05.10.2024,9d31d7c8,Company N,Main Contractor,Wire,49.46,pcs,13.5,667.71,EUR,bc8af227-d49f-4c00-9843-6344af214d9c,Reinforcement
+73,02.11.2024,57e6a3df,Company C,Main Contractor,Cement,69.28,pcs,52.92,3666.3,EUR,0dc707d9-ea86-4e25-8a25-ac60b123c3b5,Concreting
+74,02.12.2024,7d459f32,Company A,Main Contractor,Concrete Mixer,78.72,pcs,19.49,1534.25,EUR,28c82abe-2034-4286-8337-3d53a2e4e8a8,Concreting
+75,20.01.2025,58850ac3,Company B,Main Contractor,Concrete Mixer,62.08,pcs,79.06,4908.04,EUR,88183d52-a6c0-4a81-9e88-8c2015bf2064,Concreting
+76,08.11.2024,fcc55e85,Company D,Main Contractor,Cement,81.88,pcs,48.31,3955.62,EUR,069530ad-f2bb-4a93-a8a4-15a6e8339dde,Concreting
+77,05.10.2024,d77e92a0,Company M,Main Contractor,Steel,15.5,pcs,51.61,799.96,EUR,446dd95c-a288-4764-a09e-4c32da1f41e7,Reinforcement
+78,14.10.2024,e6e72b8b,Company H,Main Contractor,Bricks,88.62,pcs,32.58,2887.24,EUR,1cd773c1-c122-414f-b9fc-ed7fda6e251c,Assembly
+79,14.03.2025,56d81214,Company D,Main Contractor,Bricks,8.07,pcs,58.97,475.89,EUR,d17114e1-63c5-47a2-89b3-d7e3c2330709,Assembly
+80,20.03.2025,a74bac79,Company F,Main Contractor,Steel,83.84,pcs,63.61,5333.06,EUR,23f78154-5725-4904-9848-c50a3dcdf59a,Reinforcement
+81,23.02.2025,19333d87,Company S,Main Contractor,Tiles,31.57,pcs,52.47,1656.48,EUR,b0f89912-3fe9-4c5d-8a6c-745eccd486cc,Finishing works
+82,22.03.2025,244091b4,Company D,Main Contractor,Rebar,23.75,pcs,45.59,1082.76,EUR,85aa5b31-2bae-4974-8f12-cefdaba91b29,Reinforcement
+83,12.02.2025,ea8d07cd,Company B,Main Contractor,Paint,56.93,pcs,65.93,3753.39,EUR,b7393654-390e-4d80-b9e3-10526df5ab6e,Finishing works
+84,15.01.2025,df98e051,Company I,Main Contractor,Steel,77.67,pcs,67.12,5213.21,EUR,cfc7ef24-2a0e-4427-a5e3-5f68eb5590d0,Reinforcement
+85,03.01.2025,6eed3829,Company E,Main Contractor,Wood,13.83,pcs,57.13,790.11,EUR,649d6412-1e06-4457-9879-2dfa12d2f6f6,Shuttering
+86,20.11.2024,62642f35,Company S,Main Contractor,Wood,70.85,pcs,76.21,5399.48,EUR,301a5a93-d09e-468d-b99a-5242e4e4ece2,Shuttering
+87,06.12.2024,cf532ba4,Company K,Main Contractor,Bricks,5.66,pcs,93.26,527.85,EUR,e73ecf36-c7b2-4d9c-acfd-46b2f2a2b8b0,Assembly
+88,01.12.2024,924877db,Company D,Main Contractor,Rebar,49.27,pcs,62.86,3097.11,EUR,3801361c-5b37-4c71-b213-6dcdf03b3349,Reinforcement
+89,10.02.2025,706667a8,Company O,Main Contractor,Wire,20.94,pcs,60.72,1271.48,EUR,e3085c6a-f017-4c7f-ad29-c70c7eff22c5,Reinforcement
+90,22.11.2024,cd841fb0,Company I,Main Contractor,Scaffolding,56.22,pcs,57.76,3247.27,EUR,06be9d5e-1220-43de-9738-80954e9e776c,SettingOut
+91,24.11.2024,fd9b30b5,Company H,Main Contractor,Wire,45.36,pcs,95.62,4337.32,EUR,30cad0a8-bfff-486d-972a-450597663cf1,Reinforcement
+92,20.01.2025,be0c9aa7,Company A,Main Contractor,Tiles,43.9,pcs,54.05,2372.79,EUR,cd5ee0b6-ef0a-4059-a6fb-ee2fdd9932ae,Finishing works
+93,06.11.2024,c3efbea3,Company B,Main Contractor,Wire,66.4,pcs,14.54,965.46,EUR,f960490c-1413-409f-8809-ccd7779c9f29,Reinforcement
+94,02.01.2025,9909ac8d,Company C,Main Contractor,Paint,53.26,pcs,75.41,4016.34,EUR,7f4d0448-49ae-462e-aac4-1743eae2cc50,Finishing works
+95,25.12.2024,4787c02c,Company R,Main Contractor,Scaffolding,99.18,pcs,62.46,6194.78,EUR,89a98bdc-3be3-42ff-8d05-90cf8b21e562,SettingOut
+96,22.10.2024,9eb7a22b,Company L,Main Contractor,Tiles,96.7,pcs,68.56,6629.75,EUR,b8e2f265-9e26-4574-829a-c62f4cc4d55d,Finishing works
+97,14.02.2025,573b59e3,Company P,Main Contractor,Scaffolding,76.81,pcs,89.87,6902.91,EUR,c9e08d19-a0d3-4614-a17d-a21a26a99f54,SettingOut
+98,20.03.2025,50746070,Company C,Main Contractor,Steel,52.85,pcs,45.86,2423.7,EUR,f5628180-67a5-4fb1-b7c9-e8b85f6339b3,Reinforcement
+99,11.01.2025,3fbd7c27,Company G,Main Contractor,Paint,70.31,pcs,35.84,2519.91,EUR,a3ac8169-77c8-4f4a-ae0a-37fe1d6fd8a9,Finishing works
+100,21.03.2025,f1ded505,Company B,Main Contractor,Rebar,34.56,pcs,74.49,2574.37,EUR,34020171-68e0-499e-8f4b-43ad3a462c9b,Reinforcement
+101,21.03.2025,3204c3ae,Company Q,Main Contractor,Cement,42.69,pcs,60.38,2577.62,EUR,38d94b81-da82-45e0-959c-49b672d9b94d,Concreting
+102,13.10.2024,4eaf409a,Company I,Main Contractor,Rebar,61.13,pcs,30.18,1844.9,EUR,0ca84b05-05c5-4b87-9fc7-83ae5ed6cde3,Reinforcement
+103,18.01.2025,7ba44e98,Company T,Main Contractor,Paint,8.99,pcs,67.4,605.93,EUR,1fcae3ac-82e3-4314-9721-c1ad322401ad,Finishing works
+104,08.12.2024,57a0f05d,Company N,Main Contractor,Concrete Mixer,68.19,pcs,51.76,3529.51,EUR,c89c5941-8ad1-485b-bb6b-7fb81350a127,Concreting
+105,15.01.2025,a2cc40a2,Company D,Main Contractor,Steel,57.43,pcs,41.01,2355.2,EUR,eb8fd5eb-24c1-470b-9348-b610ac7af57c,Reinforcement
+106,27.02.2025,205013ca,Company M,Main Contractor,Rebar,76.9,pcs,36.44,2802.24,EUR,bdb4bf12-f98a-48c7-81eb-051d14bbff9d,Reinforcement
+107,16.01.2025,f41bcbda,Company L,Main Contractor,Scaffolding,35.18,pcs,91.83,3230.58,EUR,c72a0fbd-a599-4506-aa2b-55f466a6cc73,SettingOut
+108,21.01.2025,ce307f41,Company O,Main Contractor,Tiles,90.59,pcs,38.31,3470.5,EUR,f932ccc9-3d99-49af-9c21-6bb9243e049f,Finishing works
+109,04.10.2024,1e03c6a2,Company R,Main Contractor,Steel,78.3,pcs,96.17,7530.11,EUR,90dfc8e9-01f5-4c6e-be47-bafdca0a4e22,Reinforcement
+110,16.02.2025,eae42ef0,Company B,Main Contractor,Concrete Mixer,44.48,pcs,50.91,2264.48,EUR,98ee1b29-c13d-4cf5-895d-50422945859f,Concreting
+111,26.12.2024,3566b73d,Company R,Main Contractor,Steel,84.58,pcs,94.19,7966.59,EUR,8e8b9a1b-6f3b-4493-8f63-a559ae92cc46,Reinforcement
+112,03.01.2025,9dd945be,Company O,Main Contractor,Wire,21.3,pcs,27.7,590.01,EUR,19bc6197-a7db-4301-996f-fe385f186ad9,Reinforcement
+113,31.12.2024,a4e9f49b,Company S,Main Contractor,Steel,30.22,pcs,67.9,2051.94,EUR,7ce36953-8a3d-46b8-8814-7aa83fc202ad,Reinforcement
+114,18.10.2024,441252f6,Company M,Main Contractor,Bricks,41.59,pcs,84.53,3515.6,EUR,ffd756b7-eda6-4cb4-84b7-7210431b8f15,Assembly
+115,14.03.2025,a1854fcb,Company L,Main Contractor,Bricks,65.11,pcs,96.88,6307.86,EUR,1587a735-34f3-4714-bc83-a95189c51a91,Assembly
+116,01.11.2024,a1af0e7c,Company I,Main Contractor,Concrete Mixer,89.58,pcs,27.23,2439.26,EUR,8220701f-dfa4-4a70-bf89-052fb7163647,Concreting
+117,02.11.2024,c8cdf0bd,Company A,Main Contractor,Wire,76.05,pcs,63.78,4850.47,EUR,5c0d5eb0-aa33-4e10-96ac-54ddf2598700,Reinforcement
+118,11.02.2025,c5b463da,Company Q,Main Contractor,Wire,63.81,pcs,84.43,5387.48,EUR,ccab562d-c7a5-458a-9ee3-cae7a4ff7327,Reinforcement
+119,07.02.2025,bbf494f2,Company L,Main Contractor,Rebar,36.27,pcs,86.13,3123.94,EUR,ac661900-26ce-49a0-bd0e-de36b036f697,Reinforcement
+120,28.01.2025,ada1176a,Company K,Main Contractor,Wood,12.01,pcs,25.44,305.53,EUR,05cba52e-e2c4-44ab-b9fa-c04ccf5c349f,Shuttering
+121,13.01.2025,8189c4b2,Company J,Main Contractor,Concrete Mixer,13.74,pcs,36.07,495.6,EUR,1b3a0a83-e63a-4954-ae85-c22e49176d41,Concreting
+122,11.03.2025,9173cf0f,Company R,Main Contractor,Bricks,74.94,pcs,19.08,1429.86,EUR,70c3414c-aa6d-4d43-a996-a80914e6d0b0,Assembly
+123,27.11.2024,0ec30465,Company K,Main Contractor,Wood,79.61,pcs,56.3,4482.04,EUR,827ea423-3dea-42c2-a208-41260a1f729f,Shuttering
+124,13.01.2025,199c67cc,Company R,Main Contractor,Bricks,57.91,pcs,14.77,855.33,EUR,589a8270-5ed5-41f5-99d1-414500a1314e,Assembly
+125,08.01.2025,9debcb52,Company D,Main Contractor,Concrete Mixer,70.81,pcs,33.38,2363.64,EUR,1163be54-e6c7-4d3d-b2d6-037874340ec8,Concreting
+126,04.10.2024,0ba55891,Company J,Main Contractor,Cement,28.25,pcs,24.98,705.69,EUR,8b743471-e4f1-44e9-ab21-af425df50f85,Concreting
+127,11.11.2024,ee1d7620,Company A,Main Contractor,Wire,4.55,pcs,21.79,99.14,EUR,5f871bb2-a15a-42ab-af73-7580df7ad024,Reinforcement
+128,08.12.2024,3d9448a5,Company H,Main Contractor,Tiles,31.82,pcs,51.17,1628.23,EUR,e21f0997-3ec8-466f-873a-b400be5dd8ad,Finishing works
+129,02.11.2024,29469a3a,Company R,Main Contractor,Paint,80.48,pcs,80.63,6489.1,EUR,99c733ed-9e9a-42d4-86d7-884867811d0b,Finishing works
+130,05.12.2024,ef69c37f,Company N,Main Contractor,Rebar,83.7,pcs,62.71,5248.83,EUR,782c9941-189c-4990-a275-44697fafe08e,Reinforcement
+131,18.10.2024,e61f67df,Company G,Main Contractor,Wire,45.09,pcs,13.63,614.58,EUR,1e4f9220-da26-45d9-a7fd-98f492289e08,Reinforcement
+132,26.01.2025,6d4687de,Company A,Main Contractor,Tiles,47.31,pcs,45.57,2155.92,EUR,7fd04a0b-8eff-4416-ab94-bec3c38b2c3d,Finishing works
+133,02.01.2025,411014c3,Company Q,Main Contractor,Rebar,11.04,pcs,48.94,540.3,EUR,cb8c6902-29e4-4b6b-b22b-d0c460aad475,Reinforcement
+134,07.10.2024,81131c7d,Company M,Main Contractor,Paint,37.82,pcs,54.02,2043.04,EUR,6ff6600a-7ac7-4ee2-bcdf-70d0c1176819,Finishing works
+135,26.03.2025,b168c61c,Company T,Main Contractor,Wood,84.96,pcs,66.99,5691.47,EUR,96bb1101-4b76-4666-a905-d238c9c0ae29,Shuttering
+136,17.02.2025,69c34924,Company G,Main Contractor,Concrete Mixer,53.9,pcs,78.96,4255.94,EUR,df6e44d8-dc48-4f70-8e1b-c7a380e318d2,Concreting
+137,01.02.2025,0c64e74a,Company T,Main Contractor,Scaffolding,31.88,pcs,70.45,2245.95,EUR,c8640b7b-49c8-4908-8e5c-0b3d6456d591,SettingOut
+138,31.10.2024,f1ab8102,Company D,Main Contractor,Steel,22.42,pcs,27.58,618.34,EUR,389c021d-d5a2-4758-8284-1dc28184204d,Reinforcement
+139,10.01.2025,02f83394,Company B,Main Contractor,Steel,47.18,pcs,76.88,3627.2,EUR,acb56235-7c7c-41cd-94be-504e9e61aca2,Reinforcement
+140,11.11.2024,8c314698,Company L,Main Contractor,Concrete Mixer,29.06,pcs,41.79,1214.42,EUR,60f0578b-e23b-4660-b43b-9e23a1de6974,Concreting
+141,03.03.2025,92cd087a,Company G,Main Contractor,Paint,13.56,pcs,68.87,933.88,EUR,28193264-2d96-42eb-9c35-a0584f481486,Finishing works
+142,25.11.2024,f75fa268,Company F,Main Contractor,Wood,12.85,pcs,36.64,470.82,EUR,f8795901-057f-436f-aa53-12f1be2a5ea1,Shuttering
+143,27.11.2024,3b74f2cc,Company G,Main Contractor,Paint,38.59,pcs,38.69,1493.05,EUR,f2144187-d9b7-4994-a342-5bf76abb6432,Finishing works
+144,12.01.2025,df132d41,Company A,Main Contractor,Scaffolding,51.31,pcs,77.93,3998.59,EUR,c0f2c0c5-893a-4992-bf5a-f8fb931739e4,SettingOut
+145,18.12.2024,491a5fc4,Company S,Main Contractor,Scaffolding,60.01,pcs,44.11,2647.04,EUR,01e96f92-dc45-4ce1-baf2-7f764cfb3990,SettingOut
+146,19.11.2024,c878cbb9,Company F,Main Contractor,Paint,89.67,pcs,18.9,1694.76,EUR,f7689c7e-85dc-454c-ba4c-5db8a66922f5,Finishing works
+147,06.02.2025,ba24e6c5,Company J,Main Contractor,Concrete Mixer,21.39,pcs,92.07,1969.38,EUR,2431d36e-ef85-4be2-a68b-d2f1bd10330b,Concreting
+148,28.03.2025,d5c292b5,Company T,Main Contractor,Wire,83.93,pcs,10.21,856.93,EUR,35beb122-9404-4d05-b6b8-3a4ba0274388,Reinforcement
+149,13.03.2025,be883066,Company Q,Main Contractor,Rebar,28.38,pcs,27.3,774.77,EUR,b7e8b81e-258e-4361-aa02-53080329ee81,Reinforcement
+150,20.10.2024,510c8a44,Company B,Main Contractor,Cement,41.89,pcs,65.36,2737.93,EUR,b5636c58-6c76-4156-82de-5a38080cd385,Concreting
+151,05.11.2024,f831deac,Company E,Main Contractor,Wood,33.28,pcs,38.7,1287.94,EUR,f1278076-d7ae-40b3-9687-4644d1e71b46,Shuttering
+152,14.10.2024,908eab0c,Company N,Main Contractor,Cement,28.68,pcs,58.19,1668.89,EUR,d2537ab9-6c49-4f3d-8051-97eb00e4c1b4,Concreting
+153,10.03.2025,927e3585,Company S,Main Contractor,Wood,52.7,pcs,67.61,3563.05,EUR,cf6eaa16-5ce2-44c6-8214-f80fa97a31f9,Shuttering
+154,01.11.2024,ce34797f,Company S,Main Contractor,Wire,25.46,pcs,94.58,2408.01,EUR,c3deef97-c17e-44eb-920e-1b2376720315,Reinforcement
+155,23.02.2025,b85457d9,Company H,Main Contractor,Scaffolding,22.62,pcs,10.96,247.92,EUR,28df8794-181b-48c6-bd44-c763a5bf2195,SettingOut
+156,23.03.2025,14f36d6e,Company B,Main Contractor,Cement,94.54,pcs,84.93,8029.28,EUR,54ad08f6-46af-4166-a403-14e26cb5aae0,Concreting
+157,14.10.2024,d0b79506,Company F,Main Contractor,Cement,13.21,pcs,50.46,666.58,EUR,326088ec-4f29-49e7-8bbe-194c8a8434eb,Concreting
+158,25.02.2025,8c12518a,Company T,Main Contractor,Steel,47.85,pcs,54.29,2597.78,EUR,8b189dea-7999-4c75-82cc-ff4b29a9635c,Reinforcement
+159,07.02.2025,498ef54e,Company A,Main Contractor,Wire,50.64,pcs,91.66,4641.66,EUR,216bd231-4084-4d38-81c9-f9309ae841f6,Reinforcement
+160,08.11.2024,b9cadb65,Company N,Main Contractor,Scaffolding,50.07,pcs,93.18,4665.52,EUR,f992331e-8e72-4e23-8d14-25a4cc08cc46,SettingOut
+161,18.01.2025,8f070d8e,Company R,Main Contractor,Paint,22.95,pcs,82.71,1898.19,EUR,b8d61197-f8ec-4711-84a7-069da44446ae,Finishing works
+162,11.01.2025,a1db311c,Company H,Main Contractor,Rebar,99.53,pcs,17.37,1728.84,EUR,2b65f0da-0194-4e10-b9da-e3a5c30c410a,Reinforcement
+163,26.03.2025,5389f940,Company S,Main Contractor,Rebar,12.78,pcs,64.81,828.27,EUR,f521babc-6628-438b-91bd-f2cb597eeff2,Reinforcement
+164,08.12.2024,97fcd932,Company N,Main Contractor,Concrete Mixer,86.96,pcs,36.93,3211.43,EUR,d467514f-0b96-46b6-aa92-4d315d9d94d8,Concreting
+165,05.12.2024,e04ebe58,Company B,Main Contractor,Rebar,19.89,pcs,18.29,363.79,EUR,271cb391-d227-45bd-b55f-518a47fba4fd,Reinforcement
+166,11.01.2025,799aa7d9,Company T,Main Contractor,Steel,10.17,pcs,48.22,490.4,EUR,fefc537f-43ba-46be-a2be-737c793dbb0e,Reinforcement
+167,17.02.2025,848ba22c,Company R,Main Contractor,Bricks,44.01,pcs,48.09,2116.44,EUR,509b7939-8f23-4564-8354-bc6856dac5ed,Assembly
+168,04.03.2025,f1c5ee91,Company T,Main Contractor,Cement,46.79,pcs,63.23,2958.53,EUR,18da5edc-932c-4ceb-980b-2b7be0e6a1ee,Concreting
+169,27.01.2025,dc7893dd,Company J,Main Contractor,Scaffolding,85.0,pcs,85.57,7273.45,EUR,cdfe4834-c09f-4982-8073-7571c6950831,SettingOut
+170,11.10.2024,0038e8af,Company N,Main Contractor,Steel,66.51,pcs,75.53,5023.5,EUR,835df2d1-4bd1-446a-ba63-9da96e7a11a4,Reinforcement
+171,22.12.2024,752bf1a6,Company N,Main Contractor,Wood,32.07,pcs,82.58,2648.34,EUR,e9a214ce-e266-47c2-9e5c-961cdc8f96a3,Shuttering
+172,30.11.2024,7e59b49b,Company P,Main Contractor,Cement,80.06,pcs,31.63,2532.3,EUR,4538e076-09c8-4473-8463-bcb62835bcc9,Concreting
+173,26.12.2024,f9084006,Company D,Main Contractor,Steel,72.96,pcs,79.78,5820.75,EUR,38018fc7-0bf1-43fa-8696-b30dd6e442e7,Reinforcement
+174,26.12.2024,bfd57137,Company P,Main Contractor,Bricks,95.59,pcs,81.44,7784.85,EUR,535acac7-68a0-45eb-8741-f53b05081bc8,Assembly
+175,05.12.2024,3dad8c4d,Company F,Main Contractor,Bricks,46.32,pcs,38.47,1781.93,EUR,64387333-0954-4cd9-983c-bfb01992c7af,Assembly
+176,15.03.2025,96cc71f5,Company T,Main Contractor,Wood,16.23,pcs,76.82,1246.79,EUR,64ea5107-e859-48a5-8d9b-03be2809c0d6,Shuttering
+177,19.10.2024,1ccb9006,Company P,Main Contractor,Rebar,92.03,pcs,87.34,8037.9,EUR,5e3467b2-761d-46a4-bdd6-b6ee8c1bb2c1,Reinforcement
+178,20.11.2024,ee1f28ac,Company B,Main Contractor,Scaffolding,90.18,pcs,36.41,3283.45,EUR,59de670a-07ba-4511-83ae-d78e02c4a726,SettingOut
+179,01.12.2024,205a1535,Company S,Main Contractor,Bricks,50.19,pcs,89.74,4504.05,EUR,752c7503-0611-48f6-8bc0-43a63be17f49,Assembly
+180,17.02.2025,581b1240,Company L,Main Contractor,Wire,1.49,pcs,23.37,34.82,EUR,88bc40c6-5cf3-40b0-87b2-a1661772142c,Reinforcement
+181,31.12.2024,0db0b3ae,Company R,Main Contractor,Concrete Mixer,22.23,pcs,75.5,1678.37,EUR,ab4ba2ef-de0b-4007-bf31-00120ea05264,Concreting
+182,14.10.2024,6d067baf,Company H,Main Contractor,Steel,17.11,pcs,61.28,1048.5,EUR,ec59d6d3-08ae-4570-8397-ee8cfc7d922a,Reinforcement
+183,08.11.2024,734d84b7,Company F,Main Contractor,Paint,99.0,pcs,91.5,9058.5,EUR,0aabe4fa-8858-4dba-86a7-c83edf06e070,Finishing works
+184,21.11.2024,3da90227,Company I,Main Contractor,Bricks,74.97,pcs,10.5,787.18,EUR,a03b0cae-e4f6-4d72-9175-71a00405b997,Assembly
+185,29.12.2024,5f017959,Company Q,Main Contractor,Steel,34.33,pcs,36.37,1248.58,EUR,a10de8da-b487-42a8-9980-94d6d79d7682,Reinforcement
+186,03.12.2024,28678835,Company H,Main Contractor,Tiles,12.42,pcs,86.14,1069.86,EUR,8c4ea1df-5e2b-4a3a-b034-9647b8c2f092,Finishing works
+187,01.01.2025,e6fe0f65,Company D,Main Contractor,Rebar,46.96,pcs,27.58,1295.16,EUR,d4da154a-f526-45e2-a6ef-8163a842da7a,Reinforcement
+188,13.01.2025,9bdefd1f,Company R,Main Contractor,Concrete Mixer,90.26,pcs,18.29,1650.86,EUR,a29503a5-de18-406e-8e4b-27029a80b616,Concreting
+189,05.11.2024,bcb3d63a,Company S,Main Contractor,Cement,87.47,pcs,76.33,6676.59,EUR,d807933b-5607-47d0-8613-dfb8b36d6625,Concreting
+190,10.02.2025,60f31a3a,Company A,Main Contractor,Bricks,51.98,pcs,92.41,4803.47,EUR,d47c5e32-00da-4c55-a2b6-4ea89b510986,Assembly
+191,23.01.2025,1e21b794,Company D,Main Contractor,Cement,52.58,pcs,42.48,2233.6,EUR,495827f2-af9a-4086-8973-04a214518472,Concreting
+192,06.11.2024,eb61b1a0,Company P,Main Contractor,Rebar,16.92,pcs,66.88,1131.61,EUR,e6ad436a-e97e-4183-b1f7-00f64d99b3b0,Reinforcement
+193,27.03.2025,98714d11,Company R,Main Contractor,Cement,75.71,pcs,39.77,3010.99,EUR,fd93df8b-233b-4c7f-b638-fb54136c9ea7,Concreting
+194,29.10.2024,aebc17e1,Company D,Main Contractor,Bricks,53.35,pcs,37.28,1988.89,EUR,1fed647a-4b87-4546-a01f-4e6842473518,Assembly
+195,19.11.2024,171dc58e,Company P,Main Contractor,Tiles,38.73,pcs,74.93,2902.04,EUR,88103a5b-446c-4f44-ac1e-83abf92bb8b7,Finishing works
+196,14.11.2024,d7fa0f30,Company E,Main Contractor,Wire,34.48,pcs,74.94,2583.93,EUR,cbe47eab-3428-4af0-ac10-4901eac4c2c6,Reinforcement
+197,16.01.2025,b05b8244,Company D,Main Contractor,Wood,98.73,pcs,85.98,8488.81,EUR,78467bb8-e3a8-4187-9e34-3edc775f49c9,Shuttering
+198,19.02.2025,dd7a40d1,Company F,Main Contractor,Cement,55.68,pcs,57.9,3223.87,EUR,74e7b093-24af-4be6-af01-1aed10e24b5e,Concreting
+199,09.12.2024,0e6fcd09,Company N,Main Contractor,Bricks,26.72,pcs,48.37,1292.45,EUR,e77b266d-a350-44c1-a70c-191fa3e77b62,Assembly
+200,27.12.2024,21b06c3a,Company N,Main Contractor,Paint,88.58,pcs,81.9,7254.7,EUR,58c1ad71-e968-46e7-b6c7-828a79642512,Finishing works
