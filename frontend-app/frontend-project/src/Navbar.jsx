@@ -26,7 +26,7 @@ export default function Navbar() {
                     </li>
                     <li>
                         <a href="ClockInOut"
-                           className={`block py-2 px-3 rounded-md text-sm font-medium ${path === "/ClockInOut" ? "bg-indigo-700 text-white" : "text-indigo-100 hover:bg-indigo-700 hover:text-white"} transition duration-200`}>ClockInOut</a>
+                           className={`block py-2 px-3 rounded-md text-sm font-medium ${path === "/AttendanceLogTable" ? "bg-indigo-700 text-white" : "text-indigo-100 hover:bg-indigo-700 hover:text-white"} transition duration-200`}>Timesheets</a>
                     </li>
                     <li>
                         <a href="Invoices"

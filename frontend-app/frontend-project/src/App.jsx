@@ -4,10 +4,12 @@ import Program from "./pages/Program.jsx"
 import {Route, Routes} from "react-router-dom"
 import ProjectAdmin from "./pages/ProjectAdmin.jsx";
 import ProjectSelect from "./pages/ProjectSelect.jsx";
-import ClockInOut from "./pages/ClockInOut.jsx";
+import AttendanceLogTable from "./pages/ClockInOut.jsx";
 import Invoices from "./pages/Invoices.jsx";
 import Analytics from "./pages/Analytics.jsx";
 import SiteDiary from "./pages/SiteDiary.jsx";
+import ClockInOut from "./pages/ClockInOut.jsx";
+
 function App() {
 
     return(
