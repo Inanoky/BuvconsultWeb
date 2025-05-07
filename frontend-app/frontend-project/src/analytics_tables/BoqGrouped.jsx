@@ -25,7 +25,7 @@ const BoqGrouped = () => {
   const formatCell = (value) => {
     const num = parseFloat(value);
     if (!isNaN(num)) {
-      return num.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      return "€ " + num.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
     return value;
   };

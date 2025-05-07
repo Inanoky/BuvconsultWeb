@@ -16,7 +16,7 @@ const BoqTable = () => {
   const formatCost = (value) => {
     const num = parseFloat(value);
     if (isNaN(num)) return "-";
-    return num.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    return "€ " + num.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   };
 
   if (data.length === 0) {
