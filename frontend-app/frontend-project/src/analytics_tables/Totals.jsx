@@ -32,7 +32,7 @@ const BoqTable = () => {
     const materialPerUnit = parseFloat(row["Material cost per unit"]) || 0;
     const machineryPerUnit = parseFloat(row["Machinery cost per unit"]) || 0;
     const totalPerUnit = parseFloat(row["Total unit cost"]) || 0;
-    const totalCost = parseFloat(row["Total cost"]) || 0;
+    const totalCost = parseFloat(row["Total"]) || 0;
 
     const salaryCost = salaryPerUnit * amounts;
     const materialCost = materialPerUnit * amounts;

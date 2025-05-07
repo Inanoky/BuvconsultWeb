@@ -3,7 +3,8 @@ import Totalcosttable from "../analytics_tables/Totalcosttable.jsx";
 import WeeklyCostTable from "../analytics_tables/WeeklyCostTable.jsx";
 import UnitsTable from "../analytics_tables/UnitsTable.jsx";
 import Totals from "../analytics_tables/Totals.jsx";
-import Boq from "../analytics_tables/Boq.jsx";
+import BoqGrouped from "../analytics_tables/BoqGrouped.jsx";
+
 export default function Analytics() {
   const [selectedMonth, setSelectedMonth] = useState(null);
 
@@ -16,7 +17,8 @@ export default function Analytics() {
       {selectedMonth && <WeeklyCostTable month={selectedMonth} />}
         <UnitsTable />
       <Totals/>
-        <Boq/>
+        <BoqGrouped/>
+
     </div>
   );
 }

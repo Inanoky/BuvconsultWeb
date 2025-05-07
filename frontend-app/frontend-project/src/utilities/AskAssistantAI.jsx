@@ -1,11 +1,37 @@
 import React, { useState } from "react";
+import ReactMarkdown from "react-markdown";
 
-const AskAssistantAI = () => {
+
+export default function AskAssistantAi(){
+
   const [prompt, setPrompt] = useState("");
+  const [response, setResponse] = useState("")
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     alert(`You asked: ${prompt}`);
+    const formData = new FormData();
+    formData.append("prompt", prompt);
     // You can replace this with a real API call to your assistant later.
+
+
+      try {
+      const res = await fetch("http://localhost:8000/api/AiAssistant/AskAi", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await res.json();
+      if (data.response) {
+        setResponse(data.response);
+
+      } else {
+        setResponse("❌ Error: " + (data.error || "Unknown error"));
+
+      }
+    } catch (err) {
+      setResponse("❌ Exception: " + err.message);
+
+    }
   };
 
   return (
@@ -24,8 +50,13 @@ const AskAssistantAI = () => {
       >
         Ask
       </button>
+        {response && (
+        <div className="mt-4">
+          <ReactMarkdown>{response}</ReactMarkdown>
+        </div>
+      )}
     </div>
   );
-};
 
-export default AskAssistantAI;
+}
+

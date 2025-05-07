@@ -16,6 +16,7 @@ from routers import invoices
 from routers import categorize
 from routers import analytics
 from routers import site_diary
+from routers import AiAssistant
 
 
 app = FastAPI()
@@ -41,3 +42,4 @@ app.include_router(invoices.router, prefix="/api/invoices", tags=["Invoices"])
 app.include_router(categorize.router, prefix="/api/invoices", tags=["Categorize"])
 app.include_router(analytics.router)
 app.include_router(site_diary.router)
+app.include_router(AiAssistant.router, prefix="/api/AiAssistant", tags=["Categorize"])

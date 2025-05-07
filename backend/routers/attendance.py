@@ -23,8 +23,18 @@ def create_attendance(record: schemas.AttendanceCreate, db: Session = Depends(ge
     )
     db.add(attendance)
     db.commit()
-    db.refresh(attendance)
-    return attendance
+
+    # reload safely with relations
+    result = db.query(models.Attendance).options(
+        joinedload(models.Attendance.worker),
+        joinedload(models.Attendance.location),
+        joinedload(models.Attendance.work)
+    ).filter_by(id=attendance.id).first()
+
+    if not result:
+        raise HTTPException(status_code=500, detail="Attendance could not be created")
+
+    return result
 
 
 @router.get("/", response_model=list[schemas.AttendanceRead])
