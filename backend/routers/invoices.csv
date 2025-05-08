@@ -1,0 +1,49 @@
+id,invoice_date,invoice_number,seller,buyer,item,quantity,unit,price,sum,currency,file_id,category
+1,13.05.2025,MAT-0001,Ready-mix,Main Contractor,"C30/37 concrete batch, pump and delivery service included",80.0,m3,150.0,12000.0,EUR,,Concrete
+2,02.06.2025,MAT-0002,Ready-mix,Main Contractor,Pumping,80.0,m3,5.0,400.0,EUR,,Concrete
+3,02.06.2025,MAT-0002,Ready-mix,Main Contractor,Mixer stand by,2.0,h,60.0,120.0,EUR,,Concrete
+4,28.04.2025,MAT-0003,Rebarer LTD,Main Contractor,"Delivery of B500B rebar 16mm, 12m straight, 8 tons",1.0,delivery,200.0,200.0,EUR,,Materials
+5,28.04.2025,MAT-0003,Rebarer LTD,Main Contractor,"B500B rebar 16mm, 12m straight, 8 tons",21.0,tn,785.0,16485.0,EUR,,Materials
+6,19.06.2025,MAT-0004,Ready-mix,Main Contractor,"C30/37 concrete batch, pump and delivery service included",12.0,pcs,150.0,1800.0,EUR,,Concrete
+7,21.05.2025,MAT-0005,Supplier 8,Main Contractor,Bulk nails and tie wire for reinforcement fixing,8.28,pcs,1973.16,16337.76,EUR,,Materials
+8,16.06.2025,MAT-0006,Optimera,Main Contractor,"Waterproof plywood 21mm formwork panels, full truck load",3.5,pcs,1556.54,5447.89,EUR,,Materials
+9,17.06.2025,MAT-0007,Supplier 2,Main Contractor,Steel mesh reinforcement sheets A142 standard,1.87,pcs,731.86,1368.58,EUR,,Materials
+10,06.06.2025,MAT-0010,Optimera,Main Contractor,Rockwool,2.0,m3,300.0,600.0,EUR,,Materials
+11,06.06.2025,MAT-0010,Optimera,Main Contractor,Delivery,1.0,pcs,200.0,200.0,EUR,,Materials
+12,06.06.2025,MAT-0010,Optimera,Main Contractor,Bulk nails and tie wire for reinforcement fixing,6.95,pcs,673.89,4683.5355,EUR,,Materials
+13,06.06.2025,MAT-0010,Optimera,Main Contractor,Hammerdrills,4.0,pcs,232.12,928.48,EUR,,Materials
+14,04.05.2025,MAT-0011,Supplier 14,Main Contractor,Bulk nails and tie wire for reinforcement fixing,3.5,pcs,752.5,2633.75,EUR,,Materials
+15,20.05.2025,MAT-0012,Supplier 6,Main Contractor,"Waterproof plywood 21mm formwork panels, full truck load",7.03,pcs,1388.18,9758.91,EUR,,Materials
+16,07.05.2025,MAT-0014,Supplier 7,Main Contractor,Delivery of prefabricated reinforcement cages for columns,9.33,pcs,0.0,0.0,EUR,,Materials
+17,10.06.2025,MAT-0015,Supplier 14,Main Contractor,Steel mesh reinforcement sheets A142 standard,1.5,pcs,0.01,0.01,EUR,,Materials
+18,18.06.2025,MAC-0016,Supplier 7,Main Contractor,"Rental of LED lighting towers, including transport",1.84,days,1437.09,2644.25,EUR,,Machinery
+19,13.06.2025,MAC-0017,Supplier 4,Main Contractor,"Rental of LED lighting towers, including transport",2.58,days,2794.04,7208.62,EUR,,Machinery
+20,08.05.2025,MAC-0018,Supplier 3,Main Contractor,"Rental of concrete vibrator, high-frequency type",3.25,days,1363.2,4430.4,EUR,,Machinery
+21,12.06.2025,MAC-0019,Supplier 7,Main Contractor,Rental of mechanical plate compactor for subbase preparation,2.6,days,3642.38,9470.19,EUR,,Machinery
+22,06.05.2025,MAC-0020,Supplier 8,Main Contractor,Laser level and digital survey equipment rental,1.19,days,818.18,973.63,EUR,,Machinery
+23,09.05.2025,MAC-0021,Cramo,Main Contractor,"Rental of mobile scaffold tower system, safety certified",3.39,days,2881.68,9768.9,EUR,,Machinery
+24,21.05.2025,MAC-0022,Supplier 8,Main Contractor,Rental of mechanical plate compactor for subbase preparation,4.88,days,2351.9,11477.27,EUR,,Machinery
+25,11.06.2025,MAC-0023,Cramo,Main Contractor,"Rental of diesel generator 100kVA, including delivery",4.0,days,3596.76,14387.04,EUR,,generator
+26,11.06.2025,MAC-0023,Cramo,Main Contractor,Delivery of diesel,1.0,pcs,200.0,200.0,EUR,,generator
+27,11.06.2025,MAC-0023,Cramo,Main Contractor,Lost materials,1.0,pcs,200.0,200.0,EUR,,generator
+28,2025-06-11 00:00:00,MAT-0010,Optimera,Main Contractor,Hammerdrills,2.0,pcs,232.12,464.24,EUR,,Materials
+29,04.05.2025,MAC-0024,Supplier 7,Main Contractor,"Rental of concrete vibrator, high-frequency type",1.01,days,1053.55,1064.09,EUR,,Machinery
+30,12.06.2025,MAC-0025,Supplier 9,Main Contractor,"Rental of concrete vibrator, high-frequency type",3.0,days,200.0,600.0,EUR,,Machinery
+31,10.06.2025,MAC-0026,Supplier 14,Main Contractor,"Rental of concrete vibrator, high-frequency type",3.0,days,250.0,750.0,EUR,,Machinery
+32,15.05.2025,MAC-0027,Supplier 9,Main Contractor,"Rental of mobile scaffold tower system, safety certified",4.69,days,3837.25,17996.7,EUR,,Machinery
+33,06.06.2025,MAC-0028,Supplier 8,Main Contractor,"Rental of LED lighting towers, including transport",4.72,days,568.17,2681.76,EUR,,Machinery
+34,12.06.2025,MAC-0030,Supplier 14,Main Contractor,"Rental of mini crawler crane, lifting up to 2 tonnes",4.04,days,742.24,2998.65,EUR,,Machinery
+35,09.05.2025,MAC-0031,Supplier 9,Main Contractor,"Rental of mini crawler crane, lifting up to 2 tonnes",3.11,days,1077.94,3352.39,EUR,,Machinery
+36,09.05.2025,MAC-0031,Supplier 9,Main Contractor,Rental of mini crawler crane repair,1.0,pcs,660.0,660.0,EUR,,Machinery
+37,13.05.2025,MAC-0032,Cramo,Main Contractor,Laser level and digital survey equipment rental,1.8,days,3054.76,5498.57,EUR,,Machinery
+38,21.05.2025,MAC-0033,Supplier 8,Main Contractor,"Rental of LED lighting towers, including transport",2.81,days,3648.65,10252.71,EUR,,Machinery
+39,12.05.2025,MAC-0034,Supplier 6,Main Contractor,"Rental of diesel generator 100kVA, including delivery",3.22,days,573.62,1847.06,EUR,,generator
+40,28.04.2025,MAC-0035,Optimera,Main Contractor,"Rental of diesel generator 100kVA, including delivery",1.92,days,2708.86,5201.01,EUR,,generator
+41,28.04.2025,MAC-0036,Supplier 2,Main Contractor,"Rental of LED lighting towers, including transport",2.11,days,1243.31,2623.38,EUR,,Machinery
+42,26.05.2025,MAC-0037,Supplier 9,Main Contractor,Rental of hydraulic rebar bender and cutter machine,4.74,days,0.0,0.0,EUR,,Machinery
+43,13.05.2025,MAC-0038,Cramo,Main Contractor,"Rental of mini crawler crane, lifting up to 2 tonnes",1.38,days,0.01,0.01,EUR,,Machinery
+44,21.05.2025,PC-11,Precast supplier,Main Contractor,Delivery of HCS panels,3.0,delivery,400.0,1200.0,EUR,,HCS panels
+45,21.05.2025,PC-11,Precast supplier,Main Contractor,HCS panels product,80.0,pcs,292.8,23424.0,EUR,,HCS panels
+46,11.06.2025,PC-12,Precast supplier,Main Contractor,Delivery of HCS panels,4.0,delivery,400.0,1200.0,EUR,,HCS panels
+47,21.05.2025,PC-11,Precast supplier,Main Contractor,"Remaking panels 1,2,5",3.0,pcs,277.0,831.0,EUR,,HCS panels
+48,11.06.2025,PC-12,Precast supplier,Main Contractor,HCS panels product,95.0,pcs,311.0,29545.0,EUR,,HCS panels
