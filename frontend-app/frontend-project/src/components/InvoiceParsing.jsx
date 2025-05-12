@@ -2,16 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 
 export default function InvoiceParsing() {
-  const [prompt, setPrompt] = useState(`You are helpful construction invoice parsing assistant.
-Analyze invoice, extract information in JSON array key pairs."
-From each invoice you need to extract : invoice_date, invoice_number, seller, buyer, item, quantity, unit, price, sum, currency
-Do not add comments before or after response as your JSON response will be used for parsing in Python directly and saving to database.
-For any empty field return null, don't leave empty strings
-format dates as dd.mm.yyyyy
-do not use currency symbols
-for sellers and buyers fields only use company names 
-use point for decimal
-price give with 2 numbers after decimal.`);
+  const [prompt, setPrompt] = useState("");
 
   const handleParse = async () => {
     try {
@@ -46,7 +37,7 @@ price give with 2 numbers after decimal.`);
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
         rows={10}
-        className="w-full border p-2 text-sm mb-4"
+        className="w-full border p-2 text-sm mb-2"
       />
 
       <div className="flex gap-4">

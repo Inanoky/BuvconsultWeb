@@ -21,17 +21,37 @@ const BoqGrouped = () => {
     return <div>Loading summary...</div>;
   }
 
-  // Format any numeric cell to two decimals
-  const formatCell = (value) => {
-    const num = parseFloat(value);
+  // Destructure header rows and data rows
+  const [headerRow1, headerRow2, ...dataRows] = sheetData;
+  // Find the index of the "Amount" column (case-insensitive)
+  const amountColIndex = headerRow2.findIndex(
+    (header) => header.toString().trim().toLowerCase() === "amount"
+  );
+
+  /**
+   * Formats a cell value.
+   * - Numeric values get two decimal places.
+   * - Non-numeric values in the Amount column have any leading "EUR " stripped.
+   * @param {*} value - Original cell value
+   * @param {boolean} isAmount - Whether this is the Amount column
+   */
+  const formatCell = (value, isAmount = false) => {
+    // Remove non-numeric characters for parsing (commas, currency symbols)
+    const raw = value.toString().replace(/[^[0-9\-.]]/g, "");
+    const num = parseFloat(raw);
     if (!isNaN(num)) {
-      return "€ " + num.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      const formatted = num.toLocaleString(undefined, {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+      });
+      return isAmount ? formatted : `€ ${formatted}`;
+    }
+    // If not a number and in Amount column, strip leadingEUR prefix
+    if (isAmount && typeof value === 'string') {
+      return value.replace(/^EUR\s*/, '').trim();
     }
     return value;
   };
-
-  // Destructure header rows and data rows
-  const [headerRow1, headerRow2, ...dataRows] = sheetData;
 
   return (
     <div className="p-4">
@@ -63,17 +83,17 @@ const BoqGrouped = () => {
                   className={isLast ? "bg-gray-200 font-bold" : "hover:bg-gray-50"}
                 >
                   {row.map((cell, cidx) => {
-                    // Determine classes for each cell
                     const base = "px-4 py-2 border border-gray-300";
                     const rightAlign = isLast && cidx === 0 ? "text-right" : "";
                     const thickBorder = isLast && cidx === row.length - 1 ? "border-r-4" : "";
                     const bg = isLast ? "bg-gray-200" : "";
+                    const isAmountCell = cidx === amountColIndex;
                     return (
                       <td
                         key={cidx}
                         className={[base, rightAlign, thickBorder, bg].join(" ")}
                       >
-                        {formatCell(cell)}
+                        {formatCell(cell, isAmountCell)}
                       </td>
                     );
                   })}

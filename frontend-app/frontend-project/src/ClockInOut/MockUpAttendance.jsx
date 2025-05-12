@@ -28,7 +28,7 @@ export default function MockUpAttendance() {
 
   return (
     <div className="p-6">
-      <h2 className="text-xl font-bold text-purple-800 mb-4">📋 Mocked Attendance Log</h2>
+      <h2 className="text-xl font-bold text-purple-800 mb-4">📋 Attendance Log</h2>
       <table className="min-w-full border border-gray-300 text-sm">
         <thead className="bg-gray-100">
           <tr>

@@ -4,6 +4,7 @@ import WeeklyCostTable from "../analytics_tables/WeeklyCostTable.jsx";
 import UnitsTable from "../analytics_tables/UnitsTable.jsx";
 import Totals from "../analytics_tables/Totals.jsx";
 import BoqGrouped from "../analytics_tables/BoqGrouped.jsx";
+import AskAssistantAi from "../utilities/AskAssistantAI.jsx";
 
 export default function Analytics() {
   const [selectedMonth, setSelectedMonth] = useState(null);
@@ -16,8 +17,10 @@ export default function Analytics() {
       {/* Weekly chart: only show when a month is selected */}
       {selectedMonth && <WeeklyCostTable month={selectedMonth} />}
         <UnitsTable />
+
       <Totals/>
         <BoqGrouped/>
+         <AskAssistantAi/>
 
     </div>
   );

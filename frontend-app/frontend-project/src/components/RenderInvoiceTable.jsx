@@ -92,8 +92,7 @@ export default function RenderInvoiceTable() {
                     onClick={() => handleSort(key)}
                     className="p-2 border cursor-pointer select-none"
                   >
-                    {label}{" "}
-                    <span className="text-gray-400">{renderSortIcon(key)}</span>
+                    {label} <span className="text-gray-400">{renderSortIcon(key)}</span>
                   </th>
                 ))}
               </tr>
@@ -113,22 +112,32 @@ export default function RenderInvoiceTable() {
             </thead>
             <tbody>
               {sortedInvoices.map((inv) => (
-                <tr key={inv.id}>
+                <tr key={inv.id} className="hover:bg-gray-50">
                   <td className="p-2 border">{inv.id}</td>
                   <td className="p-2 border">{inv.invoice_date}</td>
                   <td className="p-2 border">
-                    {inv.file_id ? (
+                    <div className="relative inline-block group">
                       <a
-                        href={`https://drive.google.com/file/d/${inv.file_id}/view`}
+                        href="/invoice.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 underline"
                       >
                         {inv.invoice_number || "N/A"}
                       </a>
-                    ) : (
-                      inv.invoice_number || "N/A"
-                    )}
+                      {inv.invoice_number && (
+                        <div className="absolute top-full left-0 mt-1 hidden group-hover:block w-64 h-64 border bg-white z-10">
+                          <object
+                            data="/invoice.pdf#view=FitH"
+                            type="application/pdf"
+                            width="100%"
+                            height="100%"
+                          >
+                            <p>Preview unavailable</p>
+                          </object>
+                        </div>
+                      )}
+                    </div>
                   </td>
                   <td className="p-2 border">{inv.seller}</td>
                   <td className="p-2 border">{inv.buyer}</td>
