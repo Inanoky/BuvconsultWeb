@@ -9,7 +9,7 @@ export default function SiteDiaryList() {
   const [filters, setFilters] = useState({ date: '', location: '', work: '' });
 
   const fetchData = () => {
-    axios.get('http://localhost:8000/api/site-diary/')
+    axios.get(`${import.meta.env.VITE_API_URL}/api/site-diary/`)
       .then(res => setEntries(res.data))
       .catch(err => console.error(err));
   };
@@ -20,7 +20,7 @@ export default function SiteDiaryList() {
 
   const clearDiary = () => {
     if (confirm("Are you sure you want to delete all site diary entries?")) {
-      axios.delete('http://localhost:8000/api/site-diary/')
+      axios.delete(`${import.meta.env.VITE_API_URL}/api/site-diary/`)
         .then(() => fetchData());
     }
   };

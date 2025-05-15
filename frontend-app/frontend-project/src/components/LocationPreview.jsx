@@ -148,7 +148,7 @@ export default function LocationPreview({ jsonData }) {
     // Save locations first
     for (const name of flattenedLocations) {
       try {
-        const res = await fetch('http://localhost:8000/api/locations/', {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/locations/`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name })
@@ -162,7 +162,7 @@ export default function LocationPreview({ jsonData }) {
     // Save works next
     for (const { location_name, task } of flattenedWorks) {
       try {
-        const res = await fetch('http://localhost:8000/api/works/', {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/works/`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ location_name, task })

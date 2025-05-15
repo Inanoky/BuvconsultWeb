@@ -13,8 +13,8 @@ export default function TreeView() {
     async function fetchData() {
       try {
         const [locRes, workRes] = await Promise.all([
-          fetch('http://localhost:8000/api/locations/'),
-          fetch('http://localhost:8000/api/works/')
+          fetch(`${import.meta.env.VITE_API_URL}/api/locations/`),
+          fetch(`${import.meta.env.VITE_API_URL}/api/works/`)
         ]);
 
         if (!locRes.ok || !workRes.ok) {
@@ -63,7 +63,7 @@ export default function TreeView() {
 
   // --- API Update Calls ---
   const updateLocation = async (name) => {
-    await fetch('http://localhost:8000/api/locations/update', {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/locations/update`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -76,7 +76,7 @@ export default function TreeView() {
 
   const updateWork = async (locName, task) => {
     const id = workIds[`${locName}_${task}`];
-    await fetch(`http://localhost:8000/api/works/update/${id}`, {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/works/update/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -92,7 +92,7 @@ export default function TreeView() {
   const saveAllChanges = async () => {
   // Save all locations
   for (const locName of Object.keys(locUnits)) {
-    await fetch('http://localhost:8000/api/locations/update', {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/locations/update`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -109,7 +109,7 @@ export default function TreeView() {
     const workId = workIds[key];
     if (!workId) continue;
 
-    await fetch(`http://localhost:8000/api/works/update/${workId}`, {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/works/update/${workId}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

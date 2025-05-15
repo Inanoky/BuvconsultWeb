@@ -9,7 +9,7 @@ export default function BillOfQuantity() {
 
   useEffect(() => {
     setLoading(true);
-    axios.get("http://localhost:8000/api/analysis/financial-breakdown", {
+    axios.get(`${import.meta.env.VITE_API_URL}/api/analysis/financial-breakdown`, {
       params: { prompt }
     })
       .then(res => {

@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function GenerateDiaryButton({ onComplete }) {
   const generate = () => {
-    axios.post('http://localhost:8000/api/site-diary/generate')
+    axios.post(`${import.meta.env.VITE_API_URL}/api/site-diary/generate`)
       .then(() => {
         alert("Diary generated from attendance!");
         if (onComplete) onComplete();

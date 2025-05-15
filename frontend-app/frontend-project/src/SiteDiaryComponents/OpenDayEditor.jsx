@@ -5,7 +5,7 @@ export default function OpenDayEditor({ date, onClose }) {
   const [rows, setRows] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/api/site-diary/${date}`)
+    axios.get(`${import.meta.env.VITE_API_URL}/api/site-diary/${date}`)
       .then(res => setRows(res.data))
       .catch(err => console.error(err));
   }, [date]);
@@ -21,7 +21,7 @@ export default function OpenDayEditor({ date, onClose }) {
   };
 
   const deleteRow = (id, idx) => {
-    if (id) axios.delete(`http://localhost:8000/api/site-diary/${id}`);
+    if (id) axios.delete(`${import.meta.env.VITE_API_URL}/api/site-diary/${id}`);
     const updated = [...rows];
     updated.splice(idx, 1);
     setRows(updated);
@@ -29,10 +29,10 @@ export default function OpenDayEditor({ date, onClose }) {
 
   const saveRow = (row, idx) => {
     if (row.id) {
-      axios.put(`http://localhost:8000/api/site-diary/${row.id}`, row)
+      axios.put(`${import.meta.env.VITE_API_URL}/api/site-diary/${row.id}`, row)
         .then(res => console.log("Updated", res.data));
     } else {
-      axios.post(`http://localhost:8000/api/site-diary/`, row)
+      axios.post(`${import.meta.env.VITE_API_URL}/api/site-diary/`, row)
         .then(res => {
           const updated = [...rows];
           updated[idx] = res.data;

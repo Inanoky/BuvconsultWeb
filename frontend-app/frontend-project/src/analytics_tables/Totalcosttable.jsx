@@ -31,7 +31,7 @@ const Totalcosttable = ({ onMonthSelect }) => {
     const fetchAnalytics = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:8000/api/analytics/summary"
+          `${import.meta.env.VITE_API_URL}/api/analytics/summary`
         );
         const monthly = data.monthly_spending || [];
         if (!monthly.length) return;

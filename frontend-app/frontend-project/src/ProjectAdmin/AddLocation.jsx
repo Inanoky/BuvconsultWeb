@@ -5,7 +5,7 @@ export default function AddLocation() {
   const [locations, setLocations] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/locations/')
+    fetch(`${import.meta.env.VITE_API_URL}/api/locations/`)
       .then((res) => res.json())
       .then((data) => setLocations(data))
       .catch((err) => console.error('Failed to load locations:', err));
@@ -15,7 +15,7 @@ export default function AddLocation() {
     if (!locationName.trim()) return;
 
     try {
-      const res = await fetch('http://localhost:8000/api/locations/', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/locations/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: locationName })
@@ -37,7 +37,7 @@ export default function AddLocation() {
 
   const deleteLocation = async (id) => {
     try {
-      const res = await fetch(`http://localhost:8000/api/locations/${id}`, {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/locations/${id}`, {
         method: 'DELETE'
       });
 
@@ -57,7 +57,7 @@ export default function AddLocation() {
     if (!confirm) return;
 
     try {
-      const res = await fetch('http://localhost:8000/api/locations/clear-all', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/locations/clear-all`, {
         method: 'DELETE'
       });
 

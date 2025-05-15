@@ -7,18 +7,18 @@ export default function AttendanceLogTable() {
   const [actionLog, setActionLog] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/workers/").then((res) => res.json()).then(setWorkers);
-    fetch("http://localhost:8000/api/works/").then((res) => res.json()).then(setWorks);
-    fetch("http://localhost:8000/api/attendance/").then((res) => res.json()).then(setActionLog);
+    fetch(`${import.meta.env.VITE_API_URL}/api/workers/`).then((res) => res.json()).then(setWorkers);
+    fetch(`${import.meta.env.VITE_API_URL}/api/works/`).then((res) => res.json()).then(setWorks);
+    fetch(`${import.meta.env.VITE_API_URL}/api/attendance/`).then((res) => res.json()).then(setActionLog);
   }, []);
 
   const handleTimeEdit = async (id, newTime) => {
-    await fetch(`http://localhost:8000/api/attendance/${id}`, {
+    await fetch(`${import.meta.env.VITE_API_URL}/api/attendance/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ timestamp: newTime }),
     });
-    const updated = await fetch("http://localhost:8000/api/attendance/").then(res => res.json());
+    const updated = await fetch(`${import.meta.env.VITE_API_URL}/api/attendance/`).then(res => res.json());
     setActionLog(updated);
   };
 

@@ -7,7 +7,7 @@ export default function UnitsTable() {
   const [grouped, setGrouped] = useState([]);
 
   useEffect(() => {
-  axios.get('http://localhost:8000/api/analytics/by-unit') // or whatever your FastAPI port is
+  axios.get(`${import.meta.env.VITE_API_URL}/api/analytics/by-unit`) // or whatever your FastAPI port is
     .then(res => {
       if (Array.isArray(res.data)) {
         setData(res.data);

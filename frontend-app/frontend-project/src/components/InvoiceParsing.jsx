@@ -6,7 +6,7 @@ export default function InvoiceParsing() {
 
   const handleParse = async () => {
     try {
-      await axios.post("http://localhost:8000/api/invoices/parse", {
+      await axios.post(`${import.meta.env.VITE_API_URL}/api/invoices/parse`, {
         prompt,
       });
       alert("Parsing started. Check console for processing updates.");
@@ -21,7 +21,7 @@ export default function InvoiceParsing() {
     if (!confirmed) return;
 
     try {
-      const res = await axios.post("http://localhost:8000/api/invoices/clearall");
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/invoices/clearall`);
       alert(res.data.message);
     } catch (error) {
       console.error("Clearing failed:", error);

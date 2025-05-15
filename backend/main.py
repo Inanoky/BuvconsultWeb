@@ -43,3 +43,12 @@ app.include_router(categorize.router, prefix="/api/invoices", tags=["Categorize"
 app.include_router(analytics.router)
 app.include_router(site_diary.router)
 app.include_router(AiAssistant.router, prefix="/api/AiAssistant", tags=["Categorize"])
+
+@app.get("/ping")
+def ping():
+    return {"pong": True}
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8080)

@@ -13,7 +13,7 @@ export default function AddWorker() {
   });
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/workers/')
+    fetch(`${import.meta.env.VITE_API_URL}/api/workers/`)
       .then((res) => res.json())
       .then((data) => setWorkers(data))
       .catch((err) => console.error('Failed to load workers:', err));
@@ -28,7 +28,7 @@ export default function AddWorker() {
     if (!name || !surname || !code || !role || !salary) return;
 
     try {
-      const res = await fetch('http://localhost:8000/api/workers/', {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/workers/`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

@@ -13,9 +13,9 @@ export default function ClockInOut() {
   const [workId, setWorkId] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8000/api/workers/").then(res => res.json()).then(setWorkers);
-    fetch("http://localhost:8000/api/locations/").then(res => res.json()).then(setLocations);
-    fetch("http://localhost:8000/api/works/").then(res => res.json()).then(setWorks);
+    fetch(`${import.meta.env.VITE_API_URL}/api/workers/`).then(res => res.json()).then(setWorkers);
+    fetch(`${import.meta.env.VITE_API_URL}/api/locations/`).then(res => res.json()).then(setLocations);
+    fetch(`${import.meta.env.VITE_API_URL}/api/works/`).then(res => res.json()).then(setWorks);
   }, []);
 
   const handleClockIn = () => {

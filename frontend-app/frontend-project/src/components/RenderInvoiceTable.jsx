@@ -8,7 +8,7 @@ export default function RenderInvoiceTable() {
 
   const fetchInvoices = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/api/invoices/");
+      const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/invoices/`);
       setInvoices(res.data);
     } catch (err) {
       console.error("Failed to fetch invoices:", err);

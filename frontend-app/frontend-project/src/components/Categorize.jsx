@@ -30,7 +30,7 @@ export default function Categorize({ fetchInvoices }) {
   const handleCategorize = async () => {
   if (categories.length === 0) return;
 
-  await axios.post("http://localhost:8000/api/invoices/categorize", {
+  await axios.post(`${import.meta.env.VITE_API_URL}/api/invoices/categorize`, {
     categories,
   });
 

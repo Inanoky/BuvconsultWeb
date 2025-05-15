@@ -31,7 +31,7 @@ const WeeklyCostTable = ({ month }) => {
     const fetchWeekly = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:8000/api/analytics/summary"
+          `${import.meta.env.VITE_API_URL}/api/analytics/summary`
         );
         const allWeekly = data.weekly_spending || [];
         const filtered = month
